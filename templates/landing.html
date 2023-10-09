@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CLOSURE.bot</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script>
+        function checkPassword() {
+            const passwordInput = document.getElementById('passwordInput');
+            if (passwordInput.value === '4444') {
+                document.getElementById('passwordDiv').style.display = 'none';
+                document.getElementById('apiKeyDiv').style.display = 'block';
+            } else {
+                alert('Incorrect password!');
+            }
+        }
+
+        function proceedToBotPage() {
+            const openAIKey = document.getElementById('openAIKey').value;
+            const elevenLabsKey = document.getElementById('elevenLabsKey').value;
+
+            if (openAIKey && elevenLabsKey) {
+                location.href = '/bot';
+            } else {
+                alert('Please fill in both API keys.');
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div style="text-align:center; padding-top: 50px;">
+        <!-- CLOSURE.bot Image -->
+        <img src="/static/images/CLOSURE_title.GIF" alt="CLOSURE.bot" class="closure-title" style="margin-bottom: 10px;">
+    
+        <div id="passwordDiv">
+            <input type="password" id="passwordInput" placeholder="Password">
+            <img src="/static/images/submit_button.GIF" alt="Submit" class="styled-button" onclick="checkPassword()" style="cursor: pointer;">
+        </div>
+    
+        <div id="apiKeyDiv" style="display: none;">
+            <form action="/submit-api-keys" method="post">
+                
+                <!-- OpenAI Key Image and Input Box -->
+                <div style="display: inline-block; margin-right: 0px;">
+                    <img src="/static/images/OpenAI_key.GIF" alt="OpenAI Key" class="scaled" style="vertical-align: middle;">
+                    <input type="text" id="openAIKey" name="openAIKey" placeholder="Enter OpenAI Key" required style="vertical-align: middle;">
+                </div>
+                
+                <!-- ElevenLabs Key Image and Input Box -->
+                <div style="display: inline-block;">
+                    <img src="/static/images/ElevenLabs_key.GIF" alt="ElevenLabs Key" class="scaled" style="vertical-align: middle;">
+                    <input type="text" id="elevenLabsKey" name="elevenLabsKey" placeholder="Enter ElevenLabs Key" required style="vertical-align: middle;">
+                </div>
+                
+                <img id="robotGif" src="/static/images/sleeping2.GIF" alt="Sleeping Robot" style="width: 15%; margin-top: 0px;">
+
+                <div style="margin-top: 10px;">
+                    <input type="image" src="/static/images/CHAT_button.GIF" alt="CHAT" class="styled-button">
+                </div>
+            </form>
+        </div>
+    </div>    
+</body>
+
+
+</html>

@@ -1,0 +1,165 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.styled-button {
+    width: 13%;
+    display: block;
+    margin: 20px auto;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #5c9cf7;
+}
+
+html, body {
+    height: auto;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* This makes sure body takes at least full viewport height */
+}
+
+body {
+    position: relative;
+    background-color: #ffffff;
+    color: #5c9cf7;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100%; /* You can keep this or set it to auto depending on your preference */
+}
+
+body::before {
+    background-size: cover;
+    content: "";
+    position: fixed; /* changed from absolute to fixed */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/static/images/background3.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.2;  /* 20% opacity */
+    z-index: -1;   /* Place it behind the content */
+}
+
+h1 {
+    font-size: 12px;
+    color: #5c9cf7;
+}
+
+#audioVisualizer {
+    display: block;
+    margin: 20px auto;
+    background-color: #ffffff00;
+}
+
+#response_message {
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 1px 1px 0 #fff;
+}
+
+#indicator {
+    color: #f75c5c;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 1px 1px 0 #fff;
+}
+
+#botAudio {
+    visibility: hidden;
+}
+
+/* Style for focused password and API inputs */
+input[type="password"]:focus,
+input[type="text"]:focus {
+    color: #f75c5c;  /* Text color */
+    caret-color: #00000000;  /* Caret color */
+}
+
+/* If you also want to change the border of the input when focused: */
+input[type="password"]:focus,
+input[type="text"]:focus {
+    border: 1px solid #ffffff00;
+}
+
+.styled-button img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.styled-button, input[type="image"] {
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+    outline: none;
+}
+
+.scaled {
+    width: 15%;
+    height: auto;
+}
+
+.closure-title {
+    width: 20%;
+    height: auto;
+}
+
+/* For the CHAT button on landing.html */
+input[type="image"][alt="CHAT"] {
+    width: 8%;  /* Adjust this size as desired */
+    display: block;
+    margin: 1px auto;
+}
+
+/* For the Submit button on landing.html */
+img[alt="Submit"] {
+    width: 8%;  /* Adjust this size as desired */
+    display: block;
+    margin: 7px auto;
+}
+
+/* For the Start Conversation button on index.html */
+img[alt="Start Conversation"] {
+    width: 20%;  /* Adjust this size as desired */
+    padding: 0% !important;
+}
+
+/* If in the future you include the End Conversation button on index.html */
+img[alt="End Conversation"] {
+    width: 20%;  /* Adjust this size as desired */
+}
+
+#robotGif {
+    margin-top: -30px !important;
+    margin-bottom: -20px !important;
+}
