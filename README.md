@@ -17,3 +17,6 @@ Soon I will have a tutorial on youtube, demonstarting how the bot works.
   - I will update the readme so that you don't need to watch the youtube tutorial with proper instructions soon.
 
   - thanks.
+
+![Uploading sleeping2.GIF…]()
+
