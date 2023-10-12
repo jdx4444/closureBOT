@@ -1,4 +1,6 @@
 # closureBOT
+![house_fire](https://github.com/jdx4444/closureBOT/assets/133823909/987b5006-be8e-4164-bcee-a1cb853dd4ee)
+
 A conversational voice chatbot that doesn't suck... too bad.
 
 This Bot uses elevenlabs for voice sythesis, openai ft gpt3.5, whisper for tts, lanchain for memory and personality prompting, and is capable of providing continous conversation without the user needing to do a single thing other than talk. You can leave it running in the background as you dick around with other things and talk to it as you please.
