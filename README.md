@@ -1,5 +1,7 @@
 # closureBOT
-![house_fire_FULL](https://github.com/jdx4444/closureBOT/assets/133823909/67ecd7e2-4420-40a2-be8e-4f32ad17b933)
+
+![house_fire_small](https://github.com/jdx4444/closureBOT/assets/133823909/853e1022-0530-4435-9dca-37b1f9c41654)
+
 
 A conversational voice chatbot that doesn't suck... too bad.
 
@@ -18,8 +20,9 @@ Soon I will have a tutorial on youtube, demonstarting how the bot works.
 
   - thanks.
 
+![robot_wide](https://github.com/jdx4444/closureBOT/assets/133823909/58026f97-011c-4ce5-979b-fc595b4ced22)
 
-![robotFULL](https://github.com/jdx4444/closureBOT/assets/133823909/8277ddb8-083c-4428-a8fd-a6f579059dd3)
+
 
 
 
