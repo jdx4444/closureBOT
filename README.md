@@ -18,5 +18,6 @@ Soon I will have a tutorial on youtube, demonstarting how the bot works.
 
   - thanks.
 
-![Uploading sleeping2.GIF…]()
+![sleeping2](https://github.com/jdx4444/closureBOT/assets/133823909/589590ff-3740-49d2-9c36-d4357587930a)
+
 
