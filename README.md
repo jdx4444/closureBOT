@@ -17,6 +17,8 @@ Soon I will have a tutorial on youtube, demonstarting how the bot works.
   - I will update the readme so that you don't need to watch the youtube tutorial with proper instructions soon.
 
   - thanks.
+
+
 ![robotFULL](https://github.com/jdx4444/closureBOT/assets/133823909/8277ddb8-083c-4428-a8fd-a6f579059dd3)
 
 
