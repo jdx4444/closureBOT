@@ -4,7 +4,7 @@ A conversational voice chatbot that doesn't suck... too bad.
 
 Sorry, I've been slacking on a good README. It'll be up soon.
 
-For now, here's the youtube tutorial:
+For now, here's the youtube tutorial: https://www.youtube.com/watch?v=_LKxaG5ILnQ
 
 
 
