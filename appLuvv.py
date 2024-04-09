@@ -129,7 +129,7 @@ async def get_voice_message(request: Request, message):
             elif response.status_code != 200:
                 return JSONResponse(content={"error": f"Unable to process voice message. Status code: {response.status_code}"}, status_code=response.status_code)
             
-            # ... rest of your code ...
+
             
         except httpx.RequestError as exc:
             return JSONResponse(content={"error": f"An error occurred while making the request: {str(exc)}"}, status_code=500)
